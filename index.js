@@ -24,4 +24,7 @@ app.get('/Subscribe', function (req, res) {
     res.send('You have subscribed to the newsletter!');
 });
 
-app.listen(process.env.PORT || 7000);
+app.listen(process.env.PORT || 3000, function()
+{
+    console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
+});
