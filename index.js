@@ -24,4 +24,4 @@ app.get('/Subscribe', function (req, res) {
     res.send('You have subscribed to the newsletter!');
 });
 
-app.listen(7000);
+app.listen(process.env.PORT || 7000);
