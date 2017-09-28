@@ -1,0 +1,61 @@
+body
+{
+    background-color: grey;
+}
+
+#Container1 div
+{
+    flex-direction: column;
+    display: inline;
+}
+
+#Container2
+{
+    display: flex;
+    justify-content: center;
+}
+
+#Container3
+{
+    display: inline;
+    display: flex;
+    justify-content: center;
+}
+
+#Container4
+{
+    display: flex;
+    justify-content: center;
+}
+
+#Container5
+{
+    display: flex;
+    justify-content: center;
+}
+
+.line-separator
+{
+    height: 1px;
+    background: black;
+    position: relative;
+    top: 10px;
+}
+
+#Container6
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+#Container7
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+#Container8
+{
+    display: flex;
+    justify-content: space-around;
+}
