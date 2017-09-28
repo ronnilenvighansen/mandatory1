@@ -34,7 +34,7 @@ body
     justify-content: center;
 }
 
-.line-separator
+.line-separator-top
 {
     height: 1px;
     background: black;
@@ -58,4 +58,29 @@ body
 {
     display: flex;
     justify-content: space-around;
+}
+
+#Container9 div
+{
+    position: relative;
+    top: 10px;
+    flex-direction: column;
+    display: inline;
+}
+
+#Container10
+{
+    position: relative;
+    top: 40px;
+    background: blue;
+    display: flex;
+    justify-content: center;
+}
+
+.line-separator
+{
+    height: 1px;
+    background: black;
+    position: relative;
+    top: 10px;
 }
